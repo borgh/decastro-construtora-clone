@@ -60,8 +60,7 @@ const HeroSection = () => {
               </Button>
               <Button 
                 size="lg" 
-                variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-black px-8 py-3 text-lg transform hover:scale-105 transition-all duration-300"
+                className="bg-white text-gray-800 hover:bg-gray-100 border-2 border-white px-8 py-3 text-lg font-semibold transform hover:scale-105 transition-all duration-300"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
                 WhatsApp
