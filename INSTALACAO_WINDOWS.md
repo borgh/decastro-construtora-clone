@@ -13,7 +13,7 @@
 git clone https://github.com/borgh/decastro-construtora-clone.git
 
 # 2. Navegar para a pasta do projeto
-cd decastro-construtora-clone\decastro-website
+cd decastro-construtora-clone
 
 # 3. SOLUÇÃO PARA O ERRO - Usar PNPM (Mais Eficiente)
 npm install -g pnpm
@@ -27,7 +27,7 @@ pnpm dev
 
 ### **Opção A - NPM com Correções:**
 ```powershell
-cd decastro-website
+cd decastro-construtora-clone
 npm cache clean --force
 del /s /q node_modules
 del package-lock.json
@@ -38,7 +38,7 @@ npm run dev
 ### **Opção B - Yarn:**
 ```powershell
 npm install -g yarn
-cd decastro-website
+cd decastro-construtora-clone
 yarn cache clean
 rmdir /s node_modules
 del yarn.lock
@@ -48,7 +48,7 @@ yarn dev
 
 ### **Opção C - NPM Forçado:**
 ```powershell
-cd decastro-website
+cd decastro-construtora-clone
 npm install --force
 npm run dev
 ```
@@ -72,18 +72,17 @@ Se tiver problemas com a instalação local, o site está sempre disponível onl
 
 ```
 decastro-construtora-clone/
-├── decastro-website/          # Projeto React principal
-│   ├── src/
-│   │   ├── components/        # Componentes React
-│   │   ├── pages/            # Páginas do site
-│   │   ├── assets/           # Imagens e recursos
-│   │   └── hooks/            # Hooks customizados
-│   ├── public/               # Arquivos públicos
-│   ├── package.json          # Dependências (CORRIGIDO)
-│   └── .npmrc               # Configurações NPM (NOVO)
-├── README.md                 # Documentação principal
-├── SOLUCAO_ERRO_NPM.md      # Guia de solução de erros
-└── INSTALACAO_WINDOWS.md    # Este arquivo
+├── src/                      # Código fonte React
+│   ├── components/           # Componentes React
+│   ├── pages/               # Páginas do site
+│   ├── assets/              # Imagens e recursos
+│   └── hooks/               # Hooks customizados
+├── public/                  # Arquivos públicos
+├── package.json             # Dependências (CORRIGIDO)
+├── .npmrc                   # Configurações NPM (NOVO)
+├── README.md                # Documentação principal
+├── SOLUCAO_ERRO_NPM.md     # Guia de solução de erros
+└── INSTALACAO_WINDOWS.md   # Este arquivo
 ```
 
 ## 🛠️ **Comandos Úteis:**
