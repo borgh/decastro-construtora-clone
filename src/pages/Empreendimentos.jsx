@@ -14,6 +14,19 @@ const Empreendimentos = () => {
   const empreendimentos = [
     {
       id: 1,
+      nome: 'Bacutia',
+      subtitulo: 'Um Lugar de Paz',
+      descricao: 'Empreendimento baseado na filosofia de paz e bem-estar, com gestão hoteleira para locação de temporada.',
+      localizacao: 'Praia da Bacutia, Guarapari/ES',
+      quartos: 'Studios de 12m² a 20m²',
+      unidades: '30 itens de lazer',
+      status: 'Lançamento',
+      statusColor: 'bg-yellow-500',
+      image: '/images/bacutia/003.webp',
+      link: '/bacutia'
+    },
+    {
+      id: 2,
       nome: 'Carolina Caliari',
       subtitulo: 'Residencial Clube',
       descricao: 'Localizado no coração de Itapoã, em Vila Velha. Para quem quer viver perto de tudo e viver bem.',
@@ -26,7 +39,7 @@ const Empreendimentos = () => {
       link: '/carolina-caliari'
     },
     {
-      id: 2,
+      id: 3,
       nome: 'Home Experience',
       subtitulo: 'Residencial Tecnológico',
       descricao: 'Um novo jeito de morar em Vila Velha com plataforma tecnológica e sem burocracia.',
@@ -39,7 +52,7 @@ const Empreendimentos = () => {
       link: '/home-experience'
     },
     {
-      id: 3,
+      id: 4,
       nome: 'Chiabai Martins',
       subtitulo: 'Residencial',
       descricao: 'Empreendimento completo com área de lazer exclusiva e localização privilegiada.',
@@ -52,7 +65,7 @@ const Empreendimentos = () => {
       link: '/chiabai-martins'
     },
     {
-      id: 4,
+      id: 5,
       nome: 'De Castro',
       subtitulo: 'Construtora',
       descricao: 'Novo projeto em desenvolvimento. Em breve mais informações sobre este lançamento.',

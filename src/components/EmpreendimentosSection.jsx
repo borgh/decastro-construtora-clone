@@ -12,6 +12,16 @@ const EmpreendimentosSection = () => {
   const empreendimentos = [
     {
       id: 1,
+      nome: 'BACUTIA',
+      subtitulo: 'UM LUGAR DE PAZ',
+      status: 'LANÇAMENTO',
+      statusColor: 'bg-yellow-500',
+      borderColor: 'border-yellow-500',
+      image: '/images/bacutia/003.webp',
+      link: '/bacutia'
+    },
+    {
+      id: 2,
       nome: 'CAROLINA CALIARI',
       subtitulo: 'RESIDENCIAL CLUBE',
       status: 'EM CONSTRUÇÃO',
@@ -21,7 +31,7 @@ const EmpreendimentosSection = () => {
       link: '/carolina-caliari'
     },
     {
-      id: 2,
+      id: 3,
       nome: 'Home',
       subtitulo: 'EXPERIENCE',
       status: '100% VENDIDO',
@@ -32,7 +42,7 @@ const EmpreendimentosSection = () => {
       link: '/home-experience'
     },
     {
-      id: 3,
+      id: 4,
       nome: 'CHIABAI MARTINS',
       subtitulo: 'RESIDENCIAL',
       status: '100% VENDIDO',
@@ -43,7 +53,7 @@ const EmpreendimentosSection = () => {
       link: '/chiabai-martins'
     },
     {
-      id: 4,
+      id: 5,
       nome: 'DE CASTRO',
       subtitulo: 'CONSTRUTORA',
       status: 'NOVO PROJETO',
@@ -65,7 +75,7 @@ const EmpreendimentosSection = () => {
           </div>
         </AnimatedSection>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 mb-12">
           {empreendimentos.map((emp, index) => (
             <AnimatedSection 
               key={emp.id} 
