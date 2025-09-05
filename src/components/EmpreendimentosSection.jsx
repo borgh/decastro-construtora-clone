@@ -24,9 +24,9 @@ const EmpreendimentosSection = () => {
       id: 2,
       nome: 'CAROLINA CALIARI',
       subtitulo: 'RESIDENCIAL CLUBE',
-      status: 'EM CONSTRUÇÃO',
-      statusColor: 'bg-green-500',
-      borderColor: 'border-green-500',
+      status: 'CONCLUÍDO',
+      statusColor: 'bg-blue-600',
+      borderColor: 'border-blue-600',
       image: carolinaImage,
       link: '/carolina-caliari'
     },

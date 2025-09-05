@@ -33,8 +33,8 @@ const Empreendimentos = () => {
       localizacao: 'Itapoã, Vila Velha/ES',
       quartos: '3 quartos com até 3 suítes',
       unidades: '98 unidades',
-      status: 'Em Construção',
-      statusColor: 'bg-green-500',
+      status: 'Concluído',
+      statusColor: 'bg-blue-600',
       image: carolinaImage,
       link: '/carolina-caliari'
     },

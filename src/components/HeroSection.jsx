@@ -25,8 +25,8 @@ const HeroSection = () => {
         <div className="max-w-2xl">
           <AnimatedSection animation="fade-up" delay={200}>
             <div className="mb-6">
-              <span className="inline-block px-4 py-2 bg-yellow-500 text-black font-semibold rounded-full text-sm mb-4 animate-pulse">
-                Em Construção
+              <span className="inline-block px-4 py-2 bg-blue-600 text-white font-semibold rounded-full text-sm mb-4 animate-pulse">
+                Concluído
               </span>
               <h1 className="text-5xl md:text-7xl font-bold mb-4 leading-tight">
                 CAROLINA<br />

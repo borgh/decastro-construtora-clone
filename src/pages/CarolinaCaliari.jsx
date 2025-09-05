@@ -33,9 +33,9 @@ const CarolinaCaliari = () => {
   const obraStatus = [
     { etapa: 'Fundação', progresso: 100 },
     { etapa: 'Estrutura', progresso: 100 },
-    { etapa: 'Alvenaria', progresso: 99.85 },
-    { etapa: 'Instalações', progresso: 63.29 },
-    { etapa: 'Revestimento', progresso: 52.88 }
+    { etapa: 'Alvenaria', progresso: 100 },
+    { etapa: 'Instalações', progresso: 100 },
+    { etapa: 'Revestimento', progresso: 100 }
   ]
 
   return (
@@ -227,9 +227,9 @@ const CarolinaCaliari = () => {
           <AnimatedSection animation="fade-up">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-                Estágio da Obra
+                Obra Concluída
               </h2>
-              <p className="text-lg text-gray-600">Acompanhe o progresso da construção</p>
+              <p className="text-lg text-gray-600">Empreendimento 100% finalizado e entregue</p>
             </div>
           </AnimatedSection>
 
