@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { MapPin, Sun, Waves, Building } from 'lucide-react'
-import vilaVelhaImage from '../assets/secao_vila_velha_praia.jpeg'
+import vilaVelhaImage from '../assets/secao_vila_velha_nova.webp'
 
 const VilaVelhaSection = () => {
   const motivos = [
