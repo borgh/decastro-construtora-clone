@@ -33,10 +33,10 @@ const HomeExperience = () => {
 
   const obraStatus = [
     { etapa: 'Fundação', progresso: 100 },
-    { etapa: 'Estrutura', progresso: 31 },
-    { etapa: 'Alvenaria', progresso: 0 },
-    { etapa: 'Instalações', progresso: 0 },
-    { etapa: 'Revestimento', progresso: 0 }
+    { etapa: 'Estrutura', progresso: 95 },
+    { etapa: 'Alvenaria', progresso: 90 },
+    { etapa: 'Instalações', progresso: 15 },
+    { etapa: 'Revestimento', progresso: 20 }
   ]
 
   return (
